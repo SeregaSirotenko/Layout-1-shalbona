@@ -1,0 +1,983 @@
+body {
+	margin: 0;
+}
+
+.logo {
+	height: 39px;
+	width: 156px;
+	background-image: url(../images/logo.png);
+	background-repeat: no-repeat;
+}
+
+.col-1 {
+	width: 328px;
+	/*border: 1px solid black;*/
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 16px;  
+}
+.row-1 {
+	height: 74px;
+	/*border-bottom: 1px solid black;*/
+	background-color: #f4f4f4;
+}
+
+.row-1 .container .col-2 .menu ul {
+	margin: 0;
+	padding: 0;
+}
+
+.col-2 {
+	width: 578px;
+	height: 74px;
+	/*border: 1px solid black;*/
+	display: inline-block;
+	vertical-align: top; 
+}
+.col-2 ul li {
+	display: inline-block;
+	vertical-align: top;
+	width: 77px;
+	height: 75px;
+}
+
+.col-2 ul li a {
+	text-decoration: none;
+	color: #515862;
+	display:block;
+	text-align: center;
+	/*margin: 0 auto;*/
+	width: 78px;
+	margin-top: 30px;
+}
+
+.col-2 ul li:hover {
+	/*color: #c5f4ff;*/
+	background-color: #12a3d6;
+	background-image: url(../images/logo0.png);
+	background-repeat: no-repeat;
+	background-position: 1px 58px;
+}
+
+}
+
+.col-2 ul li:hover a span {
+	/*color: #c5f4ff;*/
+	color: #ffffff;
+}
+
+.col-3 {
+	width: 333px;
+	margin-top: 16px;
+	/*border: 1px solid black;*/
+	display: inline-block;
+	vertical-align: top;
+}
+
+.col-3 .search span {
+	font-weight: bold;
+	display: inline-block;
+	vertical-align: middle;
+	padding-right: 10px; 
+}
+
+.col-3 .search input {
+	display: inline-block;
+	vertical-align: middle;
+	height: 22px;
+	background-color: #f4f4f4;
+	margin-top: 5px;
+}
+
+.col-3 .search .zoom {
+	background-image: url(../images/Search.png);
+	background-repeat: no-repeat;
+	height: 27px;
+	width: 27px;
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	left: -174px;
+	top: 5px;
+}
+
+.col-3 .search {
+	margin-top: 8px;
+}
+
+.row-1 .container {
+	height: 74px;
+}
+
+.logo1 {
+	height: 297px;
+	width: 1263px;
+	background-image: url(../images/head.jpg);
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+.row-2 .logo1 .text{
+	height: 110px;
+	width: 348px;
+	margin: 0 auto;
+	margin-top: 70px;
+}
+
+.row-2 .logo1 .text span {
+	font: 80pt Bebas Neue;
+	text-align: center;
+	color: #cccece;
+}
+
+.text1 {
+	height: 72px;
+	width: 296px;
+	margin: 0 auto;
+	margin-top: 23px;
+}
+
+.text1 span {
+	font: 50.02pt Bebas Neue;
+	text-align: center;
+	color: #2190C1;	
+}
+.text2 p {
+	font: 13pt Ubuntu;
+	text-align: center;	
+}
+
+.text2 p:nth-child(1) {
+	font-weight: bold;
+	margin-top: 21px;
+}
+
+.text3 {
+	height: 126px;
+	width: 916px;
+	margin: 0 auto;
+	margin-bottom: 25px;
+}
+
+.text3 span {
+	font: 67.52pt Bebas;
+	text-align: center;
+	color: #515862;
+}
+
+.row-3 {
+	height: 312px;
+	border-top: 2px solid #e6e6e6;
+	border-bottom: 4px solid #a5a5a5;
+}
+
+.row-3 .container1 {
+	width: 919px;
+	height: 313px;
+	margin: 0 auto;
+
+	/*border: 1px solid black;*/
+}
+
+.row-3 .container1 p {
+	font: 13pt Ubuntu;
+	text-align: center;
+}
+
+.row-3 .container1 .col-4 {
+	height: 312px;
+	width: 228px;
+	/*border: 1px solid black;*/
+	float: left;
+	border-left: 2px solid #e6e6e6;
+	border-right: 2px solid #e6e6e6; 
+}
+
+.row-3 .container1 .col-4 .logo2 {
+	height: 75px;
+	width: 137px;
+	background-image: url(../images/logo2.png);
+	background-repeat: no-repeat;
+	margin: 18px 44px;
+}
+
+.row-3 .container1 .col-4 .text4 {
+	margin: -11px -1px;
+}
+
+.row-3 .container1 .col-4 .name span {
+	font: 20.01pt Bree Serif;
+	text-align: center;
+	color: #55a9ce;
+}
+.row-3 .container1 .name {
+	text-align: center;
+}
+
+.row-3 .container1 .col-5 {
+	height: 312px;
+	width: 228px;
+	/*border: 1px solid black;*/
+	float: left;
+	border-right: 2px solid #e6e6e6;
+}
+
+.row-3 .container1 .col-5 .logo3 {
+	height: 92px;
+	width: 92px;
+	background-image: url(../images/logo3.png);
+	background-repeat: no-repeat;
+	margin: 10px 82px;
+}
+
+.row-3 .container1 .col-5 .text5 {
+	margin: -11px 3px;
+} 
+
+.row-3 .container1 .col-5 .name2 span {
+	font: 20.01pt Bree Serif;
+	text-align: center;
+	color: #55a9ce;
+}
+
+.row-3 .container1 .name2 {
+	text-align: center;
+	}
+
+.row-3 .container1 .col-6 {
+	height: 312px;
+	width: 225px;
+	/*border: 1px solid black;*/
+	float: left;
+	border-right: 2px solid #e6e6e6;
+}
+
+.row-3 .container1 .col-6 .logo4 {
+	height: 90px;
+	width: 90px;
+	background-image: url(../images/logo4.png);
+	background-repeat: no-repeat;
+	margin: 12px 71px;
+}
+
+.row-3 .container1 .col-6 .text6 {
+	margin: -13px -2px;
+}
+
+.row-3 .container1 .col-6 .name3 span {
+	font: 20.01pt Bree Serif;
+	text-align: center;
+	color: #55a9ce;	
+}
+
+.row-3 .container1 .name3 {
+	text-align: center;
+}
+
+.row-3 .container1 .col-7 {
+	height: 312px;
+	width: 227px;
+	/*border: 1px solid black;*/
+	float: left;
+	border-right: 2px solid #e6e6e6;
+}
+
+.row-3 .container1 .col-7 .logo5 {
+	height: 76px;
+	width: 76px;
+	background-image: url(../images/logo5.png);
+	background-repeat: no-repeat;
+	margin: 20px 79px;
+}
+
+.row-3 .container1 .col-7 .name4 span {
+	font: 20.01pt Bree Serif;
+	text-align: center;
+	color: #55a9ce;	
+}
+
+.row-3 .container1 .name4 {
+	text-align: center;
+}
+
+.row-3 .container1 .col-7 .text7 {
+	margin: -12px 0;
+}
+
+.row-3 .text8 {
+	height: 71px;
+	width: 210px;
+	margin: 0 auto;
+	margin-top: 45px;
+}
+
+.row-3 .text8 span {
+	font: 50.03pt Bebas Neue;
+	text-align: center;
+	color: #3d9dc8;
+}
+
+.row-4 .container2 {
+	height: 657px;
+	width: 857px;
+	margin: 0 auto;
+	margin-top: 155px;
+	/*border: 1px solid black;*/
+}
+
+.row-4 .container2 .car1 {
+	height: 288px;
+	width: 389px;
+	border: 1px solid #cccccc;
+	padding: 12px;
+	box-shadow: -12px -12px 0px 0px rgba(211,211,211,0.9);
+	display: inline-block;
+	vertical-align: top;
+
+}
+
+.row-4 .container2 .car1 .head .img {
+	height: 130px;
+	width: 130px;
+	background-color: #b5b5b5;
+	background-image: url(../images/ava1.png);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.row-4 .container2 .car1 .head .text9 {
+	display: inline-block;
+	vertical-align: top;
+	width: 255px;
+	text-align: center;
+}
+
+.row-4 .container2 .car1 .head .text9 .textNum1 span {
+	font: 17.39pt Bree Serif;
+	color: #666666;
+
+}
+	
+.row-4 .container2 .car1 .head .text9 .textNum2 span {
+	font: 32.6pt Bebas Neue;
+	color: #2190c1;
+}
+
+.row-4 .container2 .car1 .head .text9 .textNum3 {
+	margin-top: -8px;
+}
+
+.row-4 .container2 .car1 .head .text9 .textNum3 span {
+	font: 13.04pt Ubuntu;
+	color: #94979b;
+}
+
+.row-4 .container2 .car1 .head .text9 .textNum4 {
+	margin-top: 7px;
+}
+
+.row-4 .container2 .car1 .head .text9 .textNum4 .square {
+	height: 23px;
+	width: 23px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #00a1e4;
+	border-radius: 5px;
+}
+
+.row-4 .container2 .car1 .head .text9 .textNum4 .square2 {
+	height: 23px;
+	width: 23px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #29aecb;
+	border-radius: 5px;
+	margin-left: 12px;
+}
+
+.row-4 .container2 .car1 .head .text9 .textNum4 .square3 {
+	height: 23px;
+	width: 23px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #0481d9;
+	border-radius: 5px;
+	margin-left: 12px;
+}
+
+.row-4 .container2 .car1 .head .text9 .textNum4 .square4 {
+	height: 23px;
+	width: 23px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #f7941d;
+	border-radius: 5px;
+	margin-left: 12px;
+}
+
+.row-4 .container2 .car1 .text10 p {
+	font: 12pt Ubuntu;
+	color: #aeb1b6;
+	text-align: center;
+}
+
+.row-4 .container2 .car2 {
+	height: 288px;
+	width: 389px;
+	border: 1px solid #cccccc;
+	padding: 12px;
+	margin-left: 23px;
+	box-shadow: 12px -12px 0px 0px rgba(211,211,211,0.9);
+	display: inline-block;
+	vertical-align: top;
+
+}
+
+.row-4 .container2 .car2 .head2 .img2 {
+	height: 130px;
+	width: 130px;
+	background-color: #b5b5b5;
+	background-image: url(../images/ava2.png);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.row-4 .container2 .car2 .head2 .text11 {
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	width: 255px;
+}
+
+.row-4 .container2 .car2 .head2 .text11 .textNum5 span {
+	font: 17.39pt Bree Serif;
+	color: #666666;
+
+}
+	
+.row-4 .container2 .car2 .head2 .text11 .textNum6 span {
+	font: 32.6pt Bebas Neue;
+	color: #2190c1;
+}
+
+.row-4 .container2 .car2 .head2 .text11 .textNum7 {
+	margin-top: -8px;
+}
+
+.row-4 .container2 .car2 .head2 .text11 .textNum7 span {
+	font: 13.04pt Ubuntu;
+	color: #94979b;
+}
+
+.row-4 .container2 .car2 .head2 .text11 .textNum8 {
+	margin-top: 7px;
+}
+
+.row-4 .container2 .car2 .head2 .text11 .textNum8 .square5 {
+	height: 23px;
+	width: 23px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #00a1e4;
+	border-radius: 5px;
+}
+
+.row-4 .container2 .car2 .head2 .text11 .textNum8 .square6 {
+	height: 23px;
+	width: 23px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #29aecb;
+	border-radius: 5px;
+	margin-left: 12px;
+}
+
+.row-4 .container2 .car2 .head2 .text11 .textNum8 .square7 {
+	height: 23px;
+	width: 23px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #0481d9;
+	border-radius: 5px;
+	margin-left: 12px;
+}
+
+.row-4 .container2 .car2 .head2 .text11 .textNum8 .square8 {
+	height: 23px;
+	width: 23px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #f7941d;
+	border-radius: 5px;
+	margin-left: 12px;
+}
+
+.row-4 .container2 .car2 .text12 p {
+	font: 12pt Ubuntu;
+	color: #aeb1b6;
+	text-align: center;
+}
+
+.row-4 .container2 .car3 {
+	height: 288px;
+	width: 389px;
+	border: 1px solid #cccccc;
+	margin-top: 30px;
+	padding: 12px;
+	box-shadow: -12px -12px 0px 0px rgba(211,211,211,0.9);
+	display: inline-block;
+	vertical-align: top;
+
+}
+
+.row-4 .container2 .car3 .head3 .img3 {
+	height: 130px;
+	width: 130px;
+	background-color: #b5b5b5;
+	background-image: url(../images/ava1.png);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.row-4 .container2 .car3 .head3 .text13 {
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	width: 255px;
+}
+
+.row-4 .container2 .car3 .head3 .text13 .textNum9 span {
+	font: 17.39pt Bree Serif;
+	color: #666666;
+
+}
+
+.row-4 .container2 .car3 .head3 .text13 .textNum10 span {
+	font: 32.6pt Bebas Neue;
+	color: #2190c1;
+}
+
+.row-4 .container2 .car3 .head3 .text13 .textNum11 {
+	margin-top: -8px;
+}
+
+.row-4 .container2 .car3 .head3 .text13 .textNum11 span {
+	font: 13.04pt Ubuntu;
+	color: #94979b;
+}
+
+.row-4 .container2 .car3 .head3 .text13 .textNum12 {
+	margin-top: 7px;
+}
+
+.row-4 .container2 .car3 .head3 .text13 .textNum12 .square9 {
+	height: 23px;
+	width: 23px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #00a1e4;
+	border-radius: 5px;
+}
+
+.row-4 .container2 .car3 .head3 .text13 .textNum12 .square10 {
+	height: 23px;
+	width: 23px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #29aecb;
+	border-radius: 5px;
+	margin-left: 12px;
+}
+
+.row-4 .container2 .car3 .head3 .text13 .textNum12 .square11 {
+	height: 23px;
+	width: 23px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #0481d9;
+	border-radius: 5px;
+	margin-left: 12px;
+}
+
+.row-4 .container2 .car3 .head3 .text13 .textNum12 .square12 {
+	height: 23px;
+	width: 23px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #f7941d;
+	border-radius: 5px;
+	margin-left: 12px;
+}
+
+.row-4 .container2 .car3 .text14 p {
+	font: 12pt Ubuntu;
+	color: #aeb1b6;
+	text-align: center;
+}
+
+.row-4 .container2 .car4 {
+	height: 288px;
+	width: 389px;
+	border: 1px solid #cccccc;
+	padding: 12px;
+	margin-left: 23px;
+	margin-top: 30px;
+	box-shadow: 12px -12px 0px 0px rgba(211,211,211,0.9);
+	display: inline-block;
+	vertical-align: top;
+
+}
+
+.row-4 .container2 .car4 .head4 .img4 {
+	height: 130px;
+	width: 130px;
+	background-color: #b5b5b5;
+	background-image: url(../images/ava2.png);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.row-4 .container2 .car4 .head4 .text15 {
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	width: 255px;
+}
+
+.row-4 .container2 .car4 .head4 .text15 .textNum13 span {
+	font: 17.39pt Bree Serif;
+	color: #666666;
+
+}
+	
+.row-4 .container2 .car4 .head4 .text15 .textNum14 span {
+	font: 32.6pt Bebas Neue;
+	color: #2190c1;
+}
+
+.row-4 .container2 .car4 .head4 .text15 .textNum15 span {
+	font: 13.04pt Ubuntu;
+	color: #94979b;
+}
+
+.row-4 .container2 .car4 .head4 .text15 .textNum16 .square13 {
+	height: 23px;
+	width: 23px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #00a1e4;
+	border-radius: 5px;
+}
+
+.row-4 .container2 .car4 .head4 .text15 .textNum16 .square14 {
+	height: 23px;
+	width: 23px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #29aecb;
+	border-radius: 5px;
+	margin-left: 12px;
+}
+
+.row-4 .container2 .car4 .head4 .text15 .textNum15 {
+	margin-top: -8px;
+}
+
+.row-4 .container2 .car4 .head4 .text15 .textNum16 {
+	margin-top: 7px;
+}
+
+.row-4 .container2 .car4 .head4 .text15 .textNum16 .square15 {
+	height: 23px;
+	width: 23px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #0481d9;
+	border-radius: 5px;
+	margin-left: 12px;
+}
+
+.row-4 .container2 .car4 .head4 .text15 .textNum16 .square16 {
+	height: 23px;
+	width: 23px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #f7941d;
+	border-radius: 5px;
+	margin-left: 12px;
+}
+
+.row-4 .container2 .car4 .text16 p {
+	font: 12pt Ubuntu;
+	color: #aeb1b6;
+	text-align: center;
+}
+
+footer {
+	background-color: #2e3e4f;
+	margin-top: 109px;
+}
+
+.container3 {
+	width: 1061px;
+	height: 350px;
+	margin: 0 auto;
+}
+
+.container3 .col-8 {
+	width: 290px;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 43px;	
+}
+
+.container3 .col-8 .textFooter {
+	font: 30.01pt Bebas Neue;
+	color: #f98561;
+}
+
+.container3 .col-8 .textFooter2 {
+	font: 12.01pt Ubuntu;
+	color: #a3afb2;
+	border-bottom: 1px solid #a3afb2; 
+	margin-top: 5px;
+	line-height: 24px;
+}
+
+.container3 .col-8 .textFooter3 {
+	margin-top: 5px;
+	font: 12.01pt Ubuntu;
+	color: #a3afb2;
+	border-bottom: 1px solid #a3afb2;
+	line-height: 24px;
+}
+
+.container3 .col-8 .textFooter4 {
+	margin-top: 5px;
+	font: 12.01pt Ubuntu;
+	color: #a3afb2;
+	line-height: 24px;
+}
+
+.container3 .col-8 a {
+	color: #2190c1;
+	text-decoration: none;
+}
+
+.container3 .col-9 {
+	width: 263px;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 43px;
+	margin-left: 30px;
+}
+
+.container3 .col-9 .textFooter5 {
+	font: 30.01pt Bebas Neue;
+	color: #f98561;
+}
+
+.container3 .col-9 .textFooter6 p {
+	margin-top: 5px;
+	font: 12.01pt Ubuntu;
+	color: #a3afb2;
+	line-height: 24px;
+}
+
+.container3 .col-9 .textFooter6{
+	border-bottom: 1px solid #a3afb2;
+}
+
+#email {
+	width: 263px;
+	height: 26px;
+}
+
+.container3 .col-9 .input label {
+	color: #2190c1;
+}
+
+.container3 .col-9 .input .fild {
+	margin-top: 15px;
+}
+
+.container3 .col-9 .input input {
+	margin-top: 15px;
+}
+
+.container3 .col-9 .input #button {
+	background-color: #2190c1;
+	border: none;
+	width: 75px;
+	height: 28px;
+	border-radius: 5px;
+	font: 10pt Ubuntu;
+	color: white;
+	float: right;
+}
+
+.container3 .col-10 {
+	width: 247px;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 43px;
+	margin-left: 30px;	
+}
+
+.container3 .col-10 .textFooter7 {
+	font: 30.01pt Bebas Neue;
+	color: #f98561;
+}
+
+.container3 .col-10 .ava {
+	width: 56px;
+	height: 56px;
+	background-color: #ffffff;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 10px;
+}
+
+.container3 .col-10 .textFooter8 {
+	font: 12.01pt Ubuntu;
+	color: #a3afb2;
+	margin-top: 5px;
+	line-height: 24px;
+	width: 171px;
+	margin-left: 5px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.container3 .col-10 .ava2 {
+	width: 56px;
+	height: 56px;
+	background-color: #ffffff;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 10px;
+}
+
+.container3 .col-10 .textFooter9 {
+	margin-top: 5px;
+	font: 12.01pt Ubuntu;
+	color: #a3afb2;
+	line-height: 24px;
+	width: 171px;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 5px;
+}
+
+.container3 .col-10 .ava3 {
+	width: 56px;
+	height: 56px;
+	background-color: #ffffff;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 10px;
+}
+
+.container3 .col-10 .textFooter10 {
+	margin-top: 5px;
+	font: 12.01pt Ubuntu;
+	color: #a3afb2;
+	line-height: 24px;
+	width: 171px;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 5px;
+}
+
+.container3 .col-10 .block {
+	width: 248px;
+	border-bottom: 1px solid #a3afb2; 
+}
+
+.container3 .col-10 .block2 {
+	width: 248px;
+	border-bottom: 1px solid #a3afb2; 
+}
+
+.container3 .col-10 a {
+	color: #2190c1;
+	text-decoration: none;
+}
+
+.container3 .col-11 {
+	width: 159px;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 43px;
+	margin-left: 30px;
+}
+
+.container3 .col-11 .textFooter11 {
+	font: 30.01pt Bebas Neue;
+	color: #f98561;
+}
+
+.container3 .col-11 .imgPhone {
+	height: 35px;
+	width: 32px;
+	background-image: url(../images/phone1.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 20px;
+}
+
+.container3 .col-11 .Num {
+	width: 121px;
+	margin-top: 20px;
+	display: inline-block;
+	vertical-align: top;
+	font: 11.01pt Ubuntu;
+	color: #a3afb2;
+}
+
+.container3 .col-11 .imgPhone2 {
+	height: 37px;
+	width: 33px;
+	background-image: url(../images/phone2.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 20px;
+}
+
+.container3 .col-11 .Num2 {
+	width: 121px;
+	margin-top: 20px;
+	display: inline-block;
+	vertical-align: top;
+	font: 11.01pt Ubuntu;
+	color: #a3afb2;
+}
+
+.container3 .col-11 .imgEmail {
+	height: 25px;
+	width: 34px;
+	background-image: url(../images/email.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 20px;
+}
+
+.container3 .col-11 .email {
+	width: 121px;
+	margin-top: 20px;
+	display: inline-block;
+	vertical-align: top;
+	font: 11.01pt Ubuntu;
+	color: #a3afb2;
+}
