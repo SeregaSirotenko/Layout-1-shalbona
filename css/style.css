@@ -5,8 +5,6 @@ body {
 .logo {
 	height: 39px;
 	width: 156px;
-	background-image: url(../images/Logo.png);
-	background-repeat: no-repeat;
 }
 
 .col-1 {
@@ -14,7 +12,7 @@ body {
 	/*border: 1px solid black;*/
 	display: inline-block;
 	vertical-align: top;
-	margin-top: 16px;  
+	padding-top: 16px;  
 }
 
 .myheader {
@@ -78,7 +76,7 @@ body {
 
 .col-3 {
 	width: 238px;
-	margin-top: 16px;
+	padding-top: 16px;
 	/*border: 1px solid black;*/
 	display: inline-block;
 	vertical-align: top;
@@ -98,6 +96,7 @@ body {
 	width: 155px;
 	background-color: #f4f4f4;
 	margin-top: 5px;
+	text-indent: 25px;
 }
 
 .col-3 .search .zoom {
@@ -114,10 +113,6 @@ body {
 
 .col-3 .search {
 	margin-top: 8px;
-}
-
-.row-1 .container {
-	height: 74px;
 }
 
 .logo1 {
@@ -156,7 +151,7 @@ body {
 
 .content1 {
 	background-color: #f4f4f4;
-	height: 355px;
+	height: 375px;
 	border-top: 2px solid #e6e6e6;
 	border-bottom: 4px solid #a5a5a5;
 }
@@ -168,7 +163,7 @@ body {
 
 .content2 {
 	background-color: #f4f4f4;
-	padding-top: 130px;
+	padding-top: 35px;
 }
 
 .mysection2 {
@@ -223,7 +218,7 @@ section {
 
 .row-3 .container1 {
 	width: 960px;
-	height: 313px;
+	height: 375px;
 	margin: 0 auto;
 
 	/*border: 1px solid black;*/
@@ -235,7 +230,6 @@ section {
 }
 
 .row-3 .container1 .col-4 {
-	height: 355px;
 	width: 228px;
 	/*border: 1px solid black;*/
 	float: left;
@@ -266,7 +260,6 @@ section {
 }
 
 .row-3 .container1 .col-5 {
-	height: 355px;
 	width: 228px;
 	/*border: 1px solid black;*/
 	float: left;
@@ -297,7 +290,6 @@ section {
 	}
 
 .row-3 .container1 .col-6 {
-	height: 355px;
 	width: 228px;
 	/*border: 1px solid black;*/
 	float: left;
@@ -328,7 +320,6 @@ section {
 }
 
 .row-3 .container1 .col-7 {
-	height: 355px;
 	width: 228px;
 	/*border: 1px solid black;*/
 	float: left;
@@ -358,14 +349,14 @@ section {
 	padding: 12px;
 }
 
-.row-3 .text8 {
+.mysection2 .text8 {
 	height: 71px;
 	width: 210px;
 	margin: 0 auto;
-	margin-top: 63px;
+	margin-bottom: 40px;
 }
 
-.row-3 .text8 span {
+.mysection2 .text8 span {
 	font: 50.03pt Bebas Neue;
 	text-align: center;
 	color: #3d9dc8;
@@ -845,7 +836,7 @@ section {
 }
 
 #email {
-	width: 263px;
+	width: 232px;
 	height: 26px;
 }
 
