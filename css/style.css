@@ -370,29 +370,35 @@ section {
 }
 
 .row-4 .container2 .car1 {
+	box-shadow: -12px -12px 0px 0px rgba(211,211,211,0.9);
+
+}
+
+.row-4 .container2 .universalCar {
 	height: 288px;
 	width: 390px;
 	border: 1px solid #cccccc;
 	padding: 12px;
-	box-shadow: -12px -12px 0px 0px rgba(211,211,211,0.9);
 	display: inline-block;
 	vertical-align: top;
 	background-color: #ffffff;
-
 }
 
-.row-4 .container2 .car1 .head .img {
+.row-4 .container2 .universalImg {
 	height: 130px;
 	width: 130px;
 	background-color: #b5b5b5;
-	background-image: url(../images/ava1.png);
 	background-position: center bottom;
 	background-repeat: no-repeat;
 	display: inline-block;
 	vertical-align: top;
 }
 
-.row-4 .container2 .car1 .head .text9 {
+.row-4 .container2 .car1 .head .img {
+	background-image: url(../images/ava1.png);
+}
+
+.row-4 .container2 .universaltext {
 	display: inline-block;
 	vertical-align: top;
 	width: 255px;
@@ -469,34 +475,13 @@ section {
 }
 
 .row-4 .container2 .car2 {
-	height: 288px;
-	width: 390px;
-	border: 1px solid #cccccc;
-	padding: 12px;
 	margin-left: 23px;
 	box-shadow: 12px -12px 0px 0px rgba(211,211,211,0.9);
-	display: inline-block;
-	vertical-align: top;
-	background-color: #ffffff;
 
 }
 
 .row-4 .container2 .car2 .head2 .img2 {
-	height: 130px;
-	width: 130px;
-	background-color: #b5b5b5;
 	background-image: url(../images/ava2.png);
-	background-position: center bottom;
-	background-repeat: no-repeat;
-	display: inline-block;
-	vertical-align: top;
-}
-
-.row-4 .container2 .car2 .head2 .text11 {
-	display: inline-block;
-	vertical-align: top;
-	text-align: center;
-	width: 255px;
 }
 
 .row-4 .container2 .car2 .head2 .text11 .textNum5 span {
@@ -569,33 +554,12 @@ section {
 }
 
 .row-4 .container2 .car3 {
-	height: 288px;
-	width: 390px;
-	border: 1px solid #cccccc;
 	margin-top: 30px;
-	padding: 12px;
 	box-shadow: -12px -12px 0px 0px rgba(211,211,211,0.9);
-	display: inline-block;
-	vertical-align: top;
-	background-color: #ffffff;
 }
 
 .row-4 .container2 .car3 .head3 .img3 {
-	height: 130px;
-	width: 130px;
-	background-color: #b5b5b5;
 	background-image: url(../images/ava1.png);
-	background-position: center bottom;
-	background-repeat: no-repeat;
-	display: inline-block;
-	vertical-align: top;
-}
-
-.row-4 .container2 .car3 .head3 .text13 {
-	display: inline-block;
-	vertical-align: top;
-	text-align: center;
-	width: 255px;
 }
 
 .row-4 .container2 .car3 .head3 .text13 .textNum9 span {
@@ -668,34 +632,13 @@ section {
 }
 
 .row-4 .container2 .car4 {
-	height: 288px;
-	width: 390px;
-	border: 1px solid #cccccc;
-	padding: 12px;
 	margin-left: 23px;
 	margin-top: 30px;
 	box-shadow: 12px -12px 0px 0px rgba(211,211,211,0.9);
-	display: inline-block;
-	vertical-align: top;
-	background-color: #ffffff;
 }
 
 .row-4 .container2 .car4 .head4 .img4 {
-	height: 130px;
-	width: 130px;
-	background-color: #b5b5b5;
 	background-image: url(../images/ava2.png);
-	background-position: center bottom;
-	background-repeat: no-repeat;
-	display: inline-block;
-	vertical-align: top;
-}
-
-.row-4 .container2 .car4 .head4 .text15 {
-	display: inline-block;
-	vertical-align: top;
-	text-align: center;
-	width: 255px;
 }
 
 .row-4 .container2 .car4 .head4 .text15 .textNum13 span {
@@ -910,7 +853,7 @@ section {
 	font: 12.01pt Ubuntu;
 	color: #a3afb2;
 	line-height: 24px;
-	width: 171px;
+	width: 186px;
 	display: inline-block;
 	vertical-align: top;
 	margin-left: 5px;
@@ -936,14 +879,13 @@ section {
 	margin-left: 5px;
 }
 
-.container3 .col-10 .block {
-	width: 248px;
+.container3 .col-10 .block, .block2 {
+	width: 260px;
 	border-bottom: 1px solid #a3afb2; 
 }
 
-.container3 .col-10 .block2 {
-	width: 248px;
-	border-bottom: 1px solid #a3afb2; 
+.container3 .col-10 .block, .block2 {
+	width: 260px;
 }
 
 .container3 .col-10 a {
