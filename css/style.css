@@ -245,17 +245,12 @@ section {
 	margin: 18px 44px;
 }
 
-.row-3 .container1 .col-4 .text4 {
+.row-3 .container1 .col-4 .text4, .text5, .text6, .text7 {
 	margin: -11px -1px;
 	padding: 12px;
 }
 
-.row-3 .container1 .col-4 .name span {
-	font: 20.01pt Bree Serif;
-	text-align: center;
-	color: #55a9ce;
-}
-.row-3 .container1 .name {
+.row-3 .container1 .name, .name2, .name3, .name4 {
 	text-align: center;
 }
 
@@ -274,20 +269,11 @@ section {
 	margin: 10px 82px;
 }
 
-.row-3 .container1 .col-5 .text5 {
-	margin: -11px -1px;
-	padding: 12px;
-} 
-
-.row-3 .container1 .col-5 .name2 span {
+.row-3 .container1 span {
 	font: 20.01pt Bree Serif;
 	text-align: center;
 	color: #55a9ce;
 }
-
-.row-3 .container1 .name2 {
-	text-align: center;
-	}
 
 .row-3 .container1 .col-6 {
 	width: 228px;
@@ -304,21 +290,6 @@ section {
 	margin: 12px 71px;
 }
 
-.row-3 .container1 .col-6 .text6 {
-	margin: -13px -1px;
-	padding: 12px;
-}
-
-.row-3 .container1 .col-6 .name3 span {
-	font: 20.01pt Bree Serif;
-	text-align: center;
-	color: #55a9ce;	
-}
-
-.row-3 .container1 .name3 {
-	text-align: center;
-}
-
 .row-3 .container1 .col-7 {
 	width: 228px;
 	/*border: 1px solid black;*/
@@ -332,21 +303,6 @@ section {
 	background-image: url(../images/logo5.png);
 	background-repeat: no-repeat;
 	margin: 20px 79px;
-}
-
-.row-3 .container1 .col-7 .name4 span {
-	font: 20.01pt Bree Serif;
-	text-align: center;
-	color: #55a9ce;	
-}
-
-.row-3 .container1 .name4 {
-	text-align: center;
-}
-
-.row-3 .container1 .col-7 .text7 {
-	margin: -12px -1px;
-	padding: 12px;
 }
 
 .mysection2 .text8 {
@@ -405,66 +361,51 @@ section {
 	text-align: center;
 }
 
-.row-4 .container2 .car1 .head .text9 .textNum1 span {
+.row-4 .container2 .textNumber span {
 	font: 17.39pt Bree Serif;
 	color: #666666;
 
 }
 	
-.row-4 .container2 .car1 .head .text9 .textNum2 span {
+.row-4 .container2 .textNumber2 span {
 	font: 32.6pt Bebas Neue;
 	color: #2190c1;
 }
 
-/*.row-4 .container2 .car1 .head .text9 .textNum3 {
-	margin-top: -8px;
-}*/
-
-.row-4 .container2 .car1 .head .text9 .textNum3 span {
+.row-4 .container2 .textNumber3 span {
 	font: 13.04pt Ubuntu;
 	color: #94979b;
 }
 
-.row-4 .container2 .car1 .head .text9 .textNum4 {
+.row-4 .container2 .textNumber4 {
 	margin-top: 7px;
 }
 
-.row-4 .container2 .car1 .head .text9 .textNum4 .square {
+.row-4 .container2 .universalSquare {
 	height: 23px;
 	width: 23px;
 	display: inline-block;
 	vertical-align: top;
+	border-radius: 5px;
+}
+
+.row-4 .container2 .textNumber4 .square, .square5, .square9, .square13 {
 	background-color: #00a1e4;
-	border-radius: 5px;
 }
 
-.row-4 .container2 .car1 .head .text9 .textNum4 .square2 {
-	height: 23px;
-	width: 23px;
-	display: inline-block;
-	vertical-align: top;
+.row-4 .container2 .car1 .head .text9 .textNumber4 .square2, .square6, .square10, .square14 {
 	background-color: #29aecb;
-	border-radius: 5px;
 	margin-left: 12px;
 }
 
-.row-4 .container2 .car1 .head .text9 .textNum4 .square3 {
-	height: 23px;
-	width: 23px;
-	display: inline-block;
-	vertical-align: top;
+.row-4 .container2 .car1 .head .text9 .textNumber4 .square3, .square7, .square11, .square15 {
+	
 	background-color: #0481d9;
-	border-radius: 5px;
 	margin-left: 12px;
 }
 
-.row-4 .container2 .car1 .head .text9 .textNum4 .square4 {
-	height: 23px;
-	width: 23px;
-	display: inline-block;
-	vertical-align: top;
+.row-4 .container2 .car1 .head .text9 .textNumber4 .square4, .square8, .square12, .square16 {
 	background-color: #f7941d;
-	border-radius: 5px;
 	margin-left: 12px;
 }
 
@@ -484,69 +425,6 @@ section {
 	background-image: url(../images/ava2.png);
 }
 
-.row-4 .container2 .car2 .head2 .text11 .textNum5 span {
-	font: 17.39pt Bree Serif;
-	color: #666666;
-
-}
-	
-.row-4 .container2 .car2 .head2 .text11 .textNum6 span {
-	font: 32.6pt Bebas Neue;
-	color: #2190c1;
-}
-
-/*.row-4 .container2 .car2 .head2 .text11 .textNum7 {
-	margin-top: -8px;
-}*/
-
-.row-4 .container2 .car2 .head2 .text11 .textNum7 span {
-	font: 13.04pt Ubuntu;
-	color: #94979b;
-}
-
-.row-4 .container2 .car2 .head2 .text11 .textNum8 {
-	margin-top: 7px;
-}
-
-.row-4 .container2 .car2 .head2 .text11 .textNum8 .square5 {
-	height: 23px;
-	width: 23px;
-	display: inline-block;
-	vertical-align: top;
-	background-color: #00a1e4;
-	border-radius: 5px;
-}
-
-.row-4 .container2 .car2 .head2 .text11 .textNum8 .square6 {
-	height: 23px;
-	width: 23px;
-	display: inline-block;
-	vertical-align: top;
-	background-color: #29aecb;
-	border-radius: 5px;
-	margin-left: 12px;
-}
-
-.row-4 .container2 .car2 .head2 .text11 .textNum8 .square7 {
-	height: 23px;
-	width: 23px;
-	display: inline-block;
-	vertical-align: top;
-	background-color: #0481d9;
-	border-radius: 5px;
-	margin-left: 12px;
-}
-
-.row-4 .container2 .car2 .head2 .text11 .textNum8 .square8 {
-	height: 23px;
-	width: 23px;
-	display: inline-block;
-	vertical-align: top;
-	background-color: #f7941d;
-	border-radius: 5px;
-	margin-left: 12px;
-}
-
 .row-4 .container2 .car2 .text12 p {
 	font: 12pt Ubuntu;
 	color: #aeb1b6;
@@ -560,69 +438,6 @@ section {
 
 .row-4 .container2 .car3 .head3 .img3 {
 	background-image: url(../images/ava1.png);
-}
-
-.row-4 .container2 .car3 .head3 .text13 .textNum9 span {
-	font: 17.39pt Bree Serif;
-	color: #666666;
-
-}
-
-.row-4 .container2 .car3 .head3 .text13 .textNum10 span {
-	font: 32.6pt Bebas Neue;
-	color: #2190c1;
-}
-
-/*.row-4 .container2 .car3 .head3 .text13 .textNum11 {
-	margin-top: -8px;
-}*/
-
-.row-4 .container2 .car3 .head3 .text13 .textNum11 span {
-	font: 13.04pt Ubuntu;
-	color: #94979b;
-}
-
-.row-4 .container2 .car3 .head3 .text13 .textNum12 {
-	margin-top: 7px;
-}
-
-.row-4 .container2 .car3 .head3 .text13 .textNum12 .square9 {
-	height: 23px;
-	width: 23px;
-	display: inline-block;
-	vertical-align: top;
-	background-color: #00a1e4;
-	border-radius: 5px;
-}
-
-.row-4 .container2 .car3 .head3 .text13 .textNum12 .square10 {
-	height: 23px;
-	width: 23px;
-	display: inline-block;
-	vertical-align: top;
-	background-color: #29aecb;
-	border-radius: 5px;
-	margin-left: 12px;
-}
-
-.row-4 .container2 .car3 .head3 .text13 .textNum12 .square11 {
-	height: 23px;
-	width: 23px;
-	display: inline-block;
-	vertical-align: top;
-	background-color: #0481d9;
-	border-radius: 5px;
-	margin-left: 12px;
-}
-
-.row-4 .container2 .car3 .head3 .text13 .textNum12 .square12 {
-	height: 23px;
-	width: 23px;
-	display: inline-block;
-	vertical-align: top;
-	background-color: #f7941d;
-	border-radius: 5px;
-	margin-left: 12px;
 }
 
 .row-4 .container2 .car3 .text14 p {
@@ -639,69 +454,6 @@ section {
 
 .row-4 .container2 .car4 .head4 .img4 {
 	background-image: url(../images/ava2.png);
-}
-
-.row-4 .container2 .car4 .head4 .text15 .textNum13 span {
-	font: 17.39pt Bree Serif;
-	color: #666666;
-
-}
-	
-.row-4 .container2 .car4 .head4 .text15 .textNum14 span {
-	font: 32.6pt Bebas Neue;
-	color: #2190c1;
-}
-
-.row-4 .container2 .car4 .head4 .text15 .textNum15 span {
-	font: 13.04pt Ubuntu;
-	color: #94979b;
-}
-
-.row-4 .container2 .car4 .head4 .text15 .textNum16 .square13 {
-	height: 23px;
-	width: 23px;
-	display: inline-block;
-	vertical-align: top;
-	background-color: #00a1e4;
-	border-radius: 5px;
-}
-
-.row-4 .container2 .car4 .head4 .text15 .textNum16 .square14 {
-	height: 23px;
-	width: 23px;
-	display: inline-block;
-	vertical-align: top;
-	background-color: #29aecb;
-	border-radius: 5px;
-	margin-left: 12px;
-}
-
-/*.row-4 .container2 .car4 .head4 .text15 .textNum15 {
-	margin-top: -8px;
-}*/
-
-.row-4 .container2 .car4 .head4 .text15 .textNum16 {
-	margin-top: 7px;
-}
-
-.row-4 .container2 .car4 .head4 .text15 .textNum16 .square15 {
-	height: 23px;
-	width: 23px;
-	display: inline-block;
-	vertical-align: top;
-	background-color: #0481d9;
-	border-radius: 5px;
-	margin-left: 12px;
-}
-
-.row-4 .container2 .car4 .head4 .text15 .textNum16 .square16 {
-	height: 23px;
-	width: 23px;
-	display: inline-block;
-	vertical-align: top;
-	background-color: #f7941d;
-	border-radius: 5px;
-	margin-left: 12px;
 }
 
 .row-4 .container2 .car4 .text16 p {
@@ -721,31 +473,19 @@ section {
 	margin-top: 43px;	
 }
 
-.container3 .col-8 .textFooter {
+.container3 .col-8 .textFooter, .textFooter5, .textFooter7, .textFooter11  {
 	font: 30.01pt Bebas Neue;
 	color: #f98561;
 }
 
-.container3 .col-8 .textFooter2 {
-	font: 12.01pt Ubuntu;
-	color: #a3afb2;
-	border-bottom: 1px solid #a3afb2; 
-	margin-top: 5px;
-	line-height: 24px;
-}
-
-.container3 .col-8 .textFooter3 {
-	margin-top: 5px;
-	font: 12.01pt Ubuntu;
-	color: #a3afb2;
+.container3 .col-8 .universalFooter {
 	border-bottom: 1px solid #a3afb2;
-	line-height: 24px;
 }
 
-.container3 .col-8 .textFooter4 {
-	margin-top: 5px;
+.container3 .col-8 .textFooter2, .textFooter3, .textFooter4 {
 	font: 12.01pt Ubuntu;
 	color: #a3afb2;
+	margin-top: 5px;
 	line-height: 24px;
 }
 
@@ -760,11 +500,6 @@ section {
 	vertical-align: top;
 	margin-top: 43px;
 	margin-left: 30px;
-}
-
-.container3 .col-9 .textFooter5 {
-	font: 30.01pt Bebas Neue;
-	color: #f98561;
 }
 
 .container3 .col-9 .textFooter6 p {
@@ -814,12 +549,7 @@ section {
 	margin-left: 30px;	
 }
 
-.container3 .col-10 .textFooter7 {
-	font: 30.01pt Bebas Neue;
-	color: #f98561;
-}
-
-.container3 .col-10 .ava {
+.container3 .col-10 .ava, .ava2, .ava3 {
 	width: 56px;
 	height: 56px;
 	background-color: #ffffff;
@@ -828,7 +558,7 @@ section {
 	margin-top: 10px;
 }
 
-.container3 .col-10 .textFooter8 {
+.container3 .col-10 .textFooter8, .textFooter9, .textFooter10  {
 	font: 12.01pt Ubuntu;
 	color: #a3afb2;
 	margin-top: 5px;
@@ -839,44 +569,8 @@ section {
 	vertical-align: top;
 }
 
-.container3 .col-10 .ava2 {
-	width: 56px;
-	height: 56px;
-	background-color: #ffffff;
-	display: inline-block;
-	vertical-align: top;
-	margin-top: 10px;
-}
-
-.container3 .col-10 .textFooter9 {
-	margin-top: 5px;
-	font: 12.01pt Ubuntu;
-	color: #a3afb2;
-	line-height: 24px;
-	width: 186px;
-	display: inline-block;
-	vertical-align: top;
-	margin-left: 5px;
-}
-
-.container3 .col-10 .ava3 {
-	width: 56px;
-	height: 56px;
-	background-color: #ffffff;
-	display: inline-block;
-	vertical-align: top;
-	margin-top: 10px;
-}
-
-.container3 .col-10 .textFooter10 {
-	margin-top: 5px;
-	font: 12.01pt Ubuntu;
-	color: #a3afb2;
-	line-height: 24px;
-	width: 170px;
-	display: inline-block;
-	vertical-align: top;
-	margin-left: 5px;
+.container3 .col-10 .block3 {
+	width: 260px;
 }
 
 .container3 .col-10 .block, .block2 {
@@ -894,85 +588,52 @@ section {
 }
 
 .container3 .col-11 {
-	width: 159px;
+	width: 160px;
 	display: inline-block;
 	vertical-align: top;
 	margin-top: 43px;
 	margin-left: 30px;
 }
 
-.container3 .col-11 .textFooter11 {
-	font: 30.01pt Bebas Neue;
-	color: #f98561;
-}
-
 .container3 .col-11 .imgPhone {
 	height: 35px;
 	width: 32px;
 	background-image: url(../images/phone1.png);
-	background-repeat: no-repeat;
-	display: inline-block;
-	vertical-align: top;
-	margin-top: 20px;
 }
 
-.container3 .col-11 .Num {
+.container3 .col-11 .Num, .Num2, .email {
 	width: 121px;
 	margin-top: 20px;
 	display: inline-block;
 	vertical-align: top;
 	font: 11.01pt Ubuntu;
 	color: #a3afb2;
+}
+
+.container3 .col-11 .universalPhone {
+	background-repeat: no-repeat;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 20px;
 }
 
 .container3 .col-11 .imgPhone2 {
 	height: 37px;
 	width: 33px;
 	background-image: url(../images/phone2.png);
-	background-repeat: no-repeat;
-	display: inline-block;
-	vertical-align: top;
-	margin-top: 20px;
-}
-
-.container3 .col-11 .Num2 {
-	width: 121px;
-	margin-top: 20px;
-	display: inline-block;
-	vertical-align: top;
-	font: 11.01pt Ubuntu;
-	color: #a3afb2;
 }
 
 .container3 .col-11 .imgEmail {
 	height: 25px;
 	width: 34px;
 	background-image: url(../images/email.png);
-	background-repeat: no-repeat;
-	display: inline-block;
-	vertical-align: top;
-	margin-top: 20px;
-}
-
-.container3 .col-11 .email {
-	width: 120px;
-	margin-top: 20px;
-	display: inline-block;
-	vertical-align: top;
-	font: 11.01pt Ubuntu;
-	color: #a3afb2;
 }
 
 .myfooter1 {
 	background-color: #2e3e4f;
 }
 
-.myfooter2 {
-	width: 960px;
-	margin: 0 auto;
-}
-
-.logoContainer {
+.myfooter2, .logoContainer {
 	width: 960px;
 	margin: 0 auto;
 }
