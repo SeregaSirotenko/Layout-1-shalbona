@@ -116,10 +116,6 @@ body {
 	margin-top: 8px;
 }
 
-.myheader-2 .row .containerRow .logo {
-	height: 107px;
-}
-
 .myheader-2 {
 	background-image: url(../images/head.jpg);
 	background-repeat: repeat-x;
@@ -158,11 +154,6 @@ body {
 	border-top: 2px solid #e6e6e6;
 	border-bottom: 4px solid #a5a5a5;
 }
-
-.content-1 .mysection-1 {
-	width: 960px;
-	margin: 0 auto;
-}	
 
 .content-2 {
 	padding-top: 35px;
@@ -229,14 +220,17 @@ section {
 	text-align: center;
 }
 
-.content-1 .mysection-1 .row .container .col-1 {
+.content-1 .mysection-1 .row .container .col {
 	width: 228px;
 	float: left;
-	border-left: 2px solid #e6e6e6;
-	border-right: 2px solid #e6e6e6; 
+	border-right: 2px solid #e6e6e6;
 }
 
-.content-1 .mysection-1 .row .container .col-1 .logo-1 {
+.content-1 .mysection-1 .row .container .col-1 {
+	border-left: 2px solid #e6e6e6; 
+}
+
+.content-1 .mysection-1 .row .container .col-1 .img {
 	height: 75px;
 	width: 137px;
 	background-image: url(../images/logo2.png);
@@ -244,22 +238,16 @@ section {
 	margin: 18px 44px;
 }
 
-.content-1 .mysection-1 .row .container .col-1 .text-1, .text-2, .text-3, .text-4 {
+.content-1 .mysection-1 .row .container .paragraph {
 	margin: -11px -1px;
 	padding: 12px;
 }
 
-.content-1 .mysection-1 .row .container .name-1, .name-2, .name-3, .name-4 {
+.content-1 .mysection-1 .row .container .name {
 	text-align: center;
 }
 
-.content-1 .mysection-1 .row .container .col-2 {
-	width: 228px;
-	float: left;
-	border-right: 2px solid #e6e6e6;
-}
-
-.content-1 .mysection-1 .row .container .col-2 .logo-2 {
+.content-1 .mysection-1 .row .container .col-2 .img {
 	height: 92px;
 	width: 92px;
 	background-image: url(../images/logo3.png);
@@ -273,14 +261,8 @@ section {
 	color: #55a9ce;
 }
 
-.content-1 .mysection-1 .row .container .col-3 {
-	width: 228px;
-	/*border: 1px solid black;*/
-	float: left;
-	border-right: 2px solid #e6e6e6;
-}
 
-.content-1 .mysection-1 .row .container .col-3 .logo-3 {
+.content-1 .mysection-1 .row .container .col-3 .img {
 	height: 90px;
 	width: 90px;
 	background-image: url(../images/logo4.png);
@@ -288,14 +270,7 @@ section {
 	margin: 12px 71px;
 }
 
-.content-1 .mysection-1 .row .container .col-4 {
-	width: 228px;
-	/*border: 1px solid black;*/
-	float: left;
-	border-right: 2px solid #e6e6e6;
-}
-
-.content-1 .mysection-1 .row .container .col-4 .logo-4 {
+.content-1 .mysection-1 .row .container .col-4 .img {
 	height: 76px;
 	width: 76px;
 	background-image: url(../images/logo5.png);
@@ -464,14 +439,17 @@ section {
 	margin: 0 auto;
 }
 
-.myfooter1 .myfooter2 .container .col-1 {
-	width: 212px;
+.myfooter1 .myfooter2 .container .col {
 	display: inline-block;
 	vertical-align: top;
 	margin-top: 43px;	
 }
 
-.myfooter1 .myfooter2 .container .textFooter-1, .texT-1, .textnumber-1, .textThisCol-1 span {
+.myfooter1 .myfooter2 .container .col-1 {
+	width: 212px;	
+}
+
+.myfooter1 .myfooter2 .container .caption span {
 	font: 30.01pt Bebas Neue;
 	color: #f98561;
 }
@@ -480,7 +458,7 @@ section {
 	border-bottom: 1px solid #a3afb2;
 }
 
-.myfooter1 .myfooter2 .container .col-1 .textFooter-2, .textFooter-3, .textFooter-4 {
+.myfooter1 .myfooter2 .container .col-1 .textFooter-1, .textFooter-2, .textFooter-3 {
 	font: 12.01pt Ubuntu;
 	color: #a3afb2;
 	margin-top: 5px;
@@ -494,20 +472,17 @@ section {
 
 .myfooter1 .myfooter2 .container .col-2 {
 	width: 246px;
-	display: inline-block;
-	vertical-align: top;
-	margin-top: 43px;
 	margin-left: 30px;
 }
 
-.myfooter1 .myfooter2 .container .col-2 .texT-2 p {
+.myfooter1 .myfooter2 .container .col-2 .texT p {
 	margin-top: 5px;
 	font: 12.01pt Ubuntu;
 	color: #a3afb2;
 	line-height: 24px;
 }
 
-.myfooter1 .myfooter2 .container .col-2 .texTF-2 {
+.myfooter1 .myfooter2 .container .col-2 .texT {
 	border-bottom: 1px solid #a3afb2;
 }
 
@@ -541,13 +516,10 @@ section {
 
 .myfooter1 .myfooter2 .container .col-3 {
 	width: 236px;
-	display: inline-block;
-	vertical-align: top;
-	margin-top: 43px;
 	margin-left: 30px;	
 }
 
-.myfooter1 .myfooter2 .container .col-3 .ava-1, .ava-2, .ava-3 {
+.myfooter1 .myfooter2 .container .col-3 .ava {
 	width: 56px;
 	height: 56px;
 	background-color: #ffffff;
@@ -556,7 +528,7 @@ section {
 	margin-top: 10px;
 }
 
-.myfooter1 .myfooter2 .container .col-3 .textnumber-2, .textnumber-3, .textnumber-4  {
+.myfooter1 .myfooter2 .container .col-3 .textnumber-1, .textnumber-2, .textnumber-3  {
 	font: 12.01pt Ubuntu;
 	color: #a3afb2;
 	margin-top: 5px;
@@ -567,17 +539,12 @@ section {
 	vertical-align: top;
 }
 
-.myfooter1 .myfooter2 .container .col-3 .block-3 {
+.myfooter1 .myfooter2 .container .col-3 .block {
 	width: 260px;
 }
 
 .myfooter1 .myfooter2 .container .col-3 .block-1, .block-2 {
-	width: 260px;
 	border-bottom: 1px solid #a3afb2; 
-}
-
-.myfooter1 .myfooter2 .container .col-3 .block-1, .block-2 {
-	width: 260px;
 }
 
 .myfooter1 .myfooter2 .container .col-3 a {
@@ -587,9 +554,6 @@ section {
 
 .myfooter1 .myfooter2 .container .col-4 {
 	width: 160px;
-	display: inline-block;
-	vertical-align: top;
-	margin-top: 43px;
 	margin-left: 30px;
 }
 
