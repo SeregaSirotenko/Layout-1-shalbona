@@ -74,7 +74,6 @@ body {
 
 
 .myheader .row .container .col-2 ul li:hover a span {
-	/*color: #c5f4ff;*/
 	color: #ffffff;
 }
 
@@ -170,7 +169,8 @@ section {
 }
 
 .myheader-2 .row .logo .text span {
-	font: 80pt Bebas Neue;
+	font-family: Bebas Neue;
+	font-size: 80pt;
 	text-align: center;
 	color: #cccece;
 }
@@ -182,12 +182,14 @@ section {
 }
 
 .content .mysection .text-1 span {
-	font: 50.02pt Bebas Neue;
+	font-family: Bebas Neue;
+	font-size: 50.02pt;
 	text-align: center;
 	color: #2190C1;	
 }
 .content .mysection .text-2 p {
-	font: 13pt Ubuntu;
+	font-family: Ubuntu;
+	font-size: 13pt;
 	text-align: center;	
 }
 
@@ -204,7 +206,8 @@ section {
 }
 
 .content .mysection .text-3 span {
-	font: 67.52pt Bebas;
+	font-family: Bebas;
+	font-size: 67.52pt;
 	text-align: center;
 	color: #515862;
 }
@@ -216,7 +219,8 @@ section {
 }
 
 .content-1 .mysection-1 .row .container p {
-	font: 13pt Ubuntu;
+	font-family: Ubuntu;
+	font-size: 13pt;
 	text-align: center;
 }
 
@@ -256,7 +260,8 @@ section {
 }
 
 .content-1 .mysection-1 .row .container span {
-	font: 20.01pt Bree Serif;
+	font-family: Bree Serif;
+	font-size: 20.01pt;
 	text-align: center;
 	color: #55a9ce;
 }
@@ -286,7 +291,8 @@ section {
 }
 
 .content-2 .mysection-2 .textSection span {
-	font: 50.03pt Bebas Neue;
+	font-family: Bebas Neue;
+	font-size: 50.03pt;
 	text-align: center;
 	color: #3d9dc8;
 }
@@ -335,18 +341,21 @@ section {
 }
 
 .content-2 .mysection-2 .row .container .textNumber-1 span {
-	font: 17.39pt Bree Serif;
+	font-family: Bree Serif;
+	font-size: 17.39pt;
 	color: #666666;
 
 }
 	
 .content-2 .mysection-2 .row .container .textNumber-2 span {
-	font: 32.6pt Bebas Neue;
+	font-family: Bebas Neue;
+	font-size: 32.6pt;
 	color: #2190c1;
 }
 
 .content-2 .mysection-2 .row .container .textNumber-3 span {
-	font: 13.04pt Ubuntu;
+	font-family: Ubuntu;
+	font-size: 13.04pt;
 	color: #94979b;
 }
 
@@ -382,8 +391,9 @@ section {
 	margin-left: 12px;
 }
 
-.content-2 .mysection-2 .row .container .car-1 .textCar-1 p {
-	font: 12pt Ubuntu;
+.content-2 .mysection-2 .row .container .textCar p {
+	font-family: Ubuntu;
+	font-size: 12pt;
 	color: #aeb1b6;
 	text-align: center;
 }
@@ -398,12 +408,6 @@ section {
 	background-image: url(../images/ava2.png);
 }
 
-.content-2 .mysection-2 .row .container .car-2 .textCar-2 p {
-	font: 12pt Ubuntu;
-	color: #aeb1b6;
-	text-align: center;
-}
-
 .content-2 .mysection-2 .row .container .car3 {
 	margin-top: 30px;
 	box-shadow: -12px -12px 0px 0px rgba(211,211,211,0.9);
@@ -411,12 +415,6 @@ section {
 
 .content-2 .mysection-2 .row .container .car3 .head-3 .img-3 {
 	background-image: url(../images/ava1.png);
-}
-
-.content-2 .mysection-2 .row .container .car3 .textCar-3 p {
-	font: 12pt Ubuntu;
-	color: #aeb1b6;
-	text-align: center;
 }
 
 .content-2 .mysection-2 .row .container .car4 {
@@ -427,12 +425,6 @@ section {
 
 .content-2 .mysection-2 .row .container .car4 .head-4 .img-4 {
 	background-image: url(../images/ava2.png);
-}
-
-.content-2 .mysection-2 .row .container .car4 .textCar-4 p {
-	font: 12pt Ubuntu;
-	color: #aeb1b6;
-	text-align: center;
 }
 
 .myfooter1 .myfooter2 .container {
@@ -450,16 +442,18 @@ section {
 }
 
 .myfooter1 .myfooter2 .container .caption span {
-	font: 30.01pt Bebas Neue;
+	font-family: Bebas Neue;
+	font-size: 30.01pt;
 	color: #f98561;
 }
 
-.myfooter1 .myfooter2 .container .col-1 .universalFooter {
+.myfooter1 .myfooter2 .container .textFooter-1, .textFooter-2, .texT {
 	border-bottom: 1px solid #a3afb2;
 }
 
-.myfooter1 .myfooter2 .container .col-1 .textFooter-1, .textFooter-2, .textFooter-3 {
-	font: 12.01pt Ubuntu;
+.myfooter1 .myfooter2 .container .col-1 .universalFooter {
+	font-family: Ubuntu;
+	font-size: 12.01pt;
 	color: #a3afb2;
 	margin-top: 5px;
 	line-height: 24px;
@@ -477,13 +471,10 @@ section {
 
 .myfooter1 .myfooter2 .container .col-2 .texT p {
 	margin-top: 5px;
-	font: 12.01pt Ubuntu;
+	font-family: Ubuntu;
+	font-size: 12.01pt;
 	color: #a3afb2;
 	line-height: 24px;
-}
-
-.myfooter1 .myfooter2 .container .col-2 .texT {
-	border-bottom: 1px solid #a3afb2;
 }
 
 #email {
@@ -509,13 +500,14 @@ section {
 	width: 75px;
 	height: 28px;
 	border-radius: 5px;
-	font: 10pt Ubuntu;
+	font-family: Ubuntu;
+	font-size: 10pt;
 	color: white;
 	float: right;
 }
 
 .myfooter1 .myfooter2 .container .col-3 {
-	width: 236px;
+	width: 237px;
 	margin-left: 30px;	
 }
 
@@ -528,8 +520,9 @@ section {
 	margin-top: 10px;
 }
 
-.myfooter1 .myfooter2 .container .col-3 .textnumber-1, .textnumber-2, .textnumber-3  {
-	font: 12.01pt Ubuntu;
+.myfooter1 .myfooter2 .container .col-3 .textnumber {
+	font-family: Ubuntu;
+	font-size: 12.01pt;
 	color: #a3afb2;
 	margin-top: 5px;
 	line-height: 24px;
@@ -540,7 +533,7 @@ section {
 }
 
 .myfooter1 .myfooter2 .container .col-3 .block {
-	width: 260px;
+	width: 237px;
 }
 
 .myfooter1 .myfooter2 .container .col-3 .block-1, .block-2 {
@@ -563,12 +556,13 @@ section {
 	background-image: url(../images/phone1.png);
 }
 
-.myfooter1 .myfooter2 .container .col-4 .Num, .Num2, .email {
+.myfooter1 .myfooter2 .container .col-4 .numberPhone {
 	width: 121px;
 	margin-top: 20px;
 	display: inline-block;
 	vertical-align: top;
-	font: 11.01pt Ubuntu;
+	font-family: Ubuntu;
+	font-size: 11.01pt;
 	color: #a3afb2;
 }
 
