@@ -65,11 +65,7 @@ body {
 }
 
 .myheader .row .container .col-2 ul li:hover {
-	/*color: #c5f4ff;*/
-	background-color: #12a3d6;
-	background-image: url(../images/logo0.png);
-	background-repeat: no-repeat;
-	background-position: 1px 58px;
+	background: url(../images/logo0.png) #12a3d6 no-repeat 1px 58px;
 }
 
 
@@ -100,8 +96,7 @@ body {
 }
 
 .myheader .row .container .col-3 .search .zoom {
-	background-image: url(../images/Search.png);
-	background-repeat: no-repeat;
+	background: url(../images/Search.png) no-repeat;
 	height: 27px;
 	width: 27px;
 	position: relative;
@@ -116,8 +111,7 @@ body {
 }
 
 .myheader-2 {
-	background-image: url(../images/head.jpg);
-	background-repeat: repeat-x;
+	background: url(../images/head.jpg) repeat-x;
 	overflow: hidden;
 }
 
@@ -237,8 +231,7 @@ section {
 .content-1 .mysection-1 .row .container .col-1 .img {
 	height: 75px;
 	width: 137px;
-	background-image: url(../images/logo2.png);
-	background-repeat: no-repeat;
+	background: url(../images/logo2.png) no-repeat;
 	margin: 18px 44px;
 }
 
@@ -254,8 +247,7 @@ section {
 .content-1 .mysection-1 .row .container .col-2 .img {
 	height: 92px;
 	width: 92px;
-	background-image: url(../images/logo3.png);
-	background-repeat: no-repeat;
+	background: url(../images/logo3.png) no-repeat;
 	margin: 10px 82px;
 }
 
@@ -270,16 +262,14 @@ section {
 .content-1 .mysection-1 .row .container .col-3 .img {
 	height: 90px;
 	width: 90px;
-	background-image: url(../images/logo4.png);
-	background-repeat: no-repeat;
+	background: url(../images/logo4.png) no-repeat;
 	margin: 12px 71px;
 }
 
 .content-1 .mysection-1 .row .container .col-4 .img {
 	height: 76px;
 	width: 76px;
-	background-image: url(../images/logo5.png);
-	background-repeat: no-repeat;
+	background: url(../images/logo5.png) no-repeat;
 	margin: 20px 79px;
 }
 
@@ -301,7 +291,6 @@ section {
 	height: 657px;
 	width: 860px;
 	margin: 0 auto;
-	/*border: 1px solid black;*/
 }
 
 .content-2 .mysection-2 .row .container .car-1 {
@@ -430,6 +419,7 @@ section {
 .myfooter1 .myfooter2 .container {
 	margin: 0 auto;
 	padding-top: 43px;
+	padding-bottom: 37px;
 }
 
 .myfooter1 .myfooter2 .container .col {
